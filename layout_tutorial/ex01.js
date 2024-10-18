@@ -1,0 +1,1 @@
+document.write('<p>Javascript is fun :)</p>');
