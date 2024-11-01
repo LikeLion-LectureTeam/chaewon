@@ -1,42 +1,57 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>멋쟁이사자처럼</title>
-
-    <meta property="og:title" content="멋쟁이사자처럼 화이팅">
-    <meta property="og:description" content="멋쟁이사자처럼과 즐거운 코딩">
-    <meta property="og:image" content="./thumbnail.jpg">
-
-    <link rel="stylesheet" href="./style.css">
+    <title>The Rule of 10,000 Hours</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <!-- <p> 표제</p> -->
-    <h1>모두를 위한 코딩 강의 - 테킷</h1>
+    <div id="app">
+        <header>
+            <h1 class="title-law">
+                <img src="images/title.png" alt="10000 hours" class="img-title">
+            </h1>
+            <!-- <img src="images/quote.jpeg" alt="work hard dream big never give up" class="img-text"> -->
+            <p class="txt-desc">
+                <strong class="title-desc">The rule of 10,000 hours</strong><br />
+                is the rule that in order to master a skill,<br />
+                you must invest 10,000 hours of training.
+            </p>
+        </header>
+        <main>
+            <form class="cont-inp">
+                <p class="txt-wannabe">I will master <input type="text" placeholder="programming">.</p>
+                <p class="txt-time">So I will spend <input type="number" placeholder="5"> hours of training every day.</p>
+                <button class="btn-exc" type="submit">How many days will I need to train in order to reach 10,000 hours?</button>
+            </form>
+            <section class="cont-result">
+                <h2 class="a11y">Get my results</h2>
+                <p class="txt-wannabe">In order to become a master at <strong>programming</strong>, <br /> you must spend <strong>1000</strong> days of training.</p>
+                <button type="button" class="btn-go">GO GO!</button>
+                <button type="button" class="btn-share">Share</button>
 
-    <div>
-        <h2>멋쟁이사자처럼 스쿨</h2>
+            </section>
+        </main>
+        <footer class="cont-footer">
+            <img src="images/logo.png" alt="like lion" class="img-footer">
+            <p class="txt-footer">&#8251; This service is under LikeLion.</p>
+            <p class="txt-footer">Editing and reuse of this page is prohibited.</p>
+        </footer>
 
-        <p>멋쟁이사자처럼 스쿨이 <br> 여러분을 환영합니다.</p>
+        <article id="modal">
+            <div class="modal-wrap">
+                <h2>You got this!!!~</h2>
+                <h3>We celebrate your dreams!</h3>
+                <img src="images/cub.jpeg" alt="cub">
+                <button class="btn-close" type="button">Go start training NOW</button>
+                <p>It's just the close button ;)</p>
+            </div>
+        </article>
 
-        <ol>
-            <li>
-                <a href="https://likelion.net"> 
-                프론트엔드 스쿨</a>
-            </li>
-            <li> 
-                <a href="https://likelion.net" target="_blank">
-                백엔드 스쿨
-                </a> 
-            </li>
-            <li> 
-                <a href="#">
-                블록체인 스쿨
-                </a>
-            </li>
-        </ol>
     </div>
     
 </body>
